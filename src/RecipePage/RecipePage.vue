@@ -42,7 +42,7 @@ defineProps<TRecipe>()
             <p class="recipeHeader_description">{{ description }}</p>
         </section>
 
-        <section class="preparationTime recipeInfoBox ">
+        <aside class="preparationTime recipeInfoBox">
             <h3 class="preparationTime_title recipeInfoBox_title">Preparation time</h3>
             <ul class="preparationTime_list recipeInfoBox_list recipeInfoBox_list_ul">
                 <li class="preparationTime_listItem recipeInfoBox_listItem"><span class="recipeInfoBox_listItem_text"><span
@@ -60,7 +60,7 @@ defineProps<TRecipe>()
                             class="preparationTime_text">{{ preparationTime.cooking }}</span>
                 </span></li>
             </ul>
-        </section>
+        </aside>
 
         <section class="ingredients recipeSection">
             <h2 class="recipeSectionTitle titleSerif">Ingredients</h2>
