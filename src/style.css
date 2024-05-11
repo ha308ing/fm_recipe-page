@@ -1,0 +1,24 @@
+@import url("../node_modules/minireset.css/minireset.min.css");
+
+@font-face {
+  font-family: Outfit;
+  src: url("./fonts/outfit/Outfit-VariableFont_wght.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Young serif";
+  src: url("./fonts/young-serif/YoungSerif-Regular.ttf");
+  font-display: swap;
+}
+
+body {
+  font-family: Outfit, sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  display: flex;
+  flex-flow: row nowrap;
+  place-items: center;
+  place-content: center;
+  background-color: hsl(29, 53%, 90%);
+}
