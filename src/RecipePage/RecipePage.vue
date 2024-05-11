@@ -43,7 +43,7 @@ defineProps<TRecipe>()
         </section>
 
         <aside class="preparationTime recipeInfoBox">
-            <h3 class="preparationTime_title recipeInfoBox_title">Preparation time</h3>
+            <h1 class="preparationTime_title recipeInfoBox_title">Preparation time</h1>
             <ul class="preparationTime_list recipeInfoBox_list recipeInfoBox_list_ul">
                 <li class="preparationTime_listItem recipeInfoBox_listItem"><span class="recipeInfoBox_listItem_text"><span
                         class="preparationTime_subtitle recipeInfoBox_subtitle">Total:</span><span
